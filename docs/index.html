@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#5865F2" />
+  <meta name="description" content="Offizielle Discord Community Website" />
+  <title>Discord Community</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-effects" aria-hidden="true">
+    <span class="orb orb-one"></span>
+    <span class="orb orb-two"></span>
+    <span class="orb orb-three"></span>
+  </div>
+
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Startseite">
+      <span class="brand-icon">◉</span>
+      <span>Discord Community</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Navigation">
+      <a href="#home">Start</a>
+      <a href="#features">Features</a>
+      <a href="#server">Server</a>
+    </nav>
+
+    <a class="nav-button" href="https://discord.gg/" target="_blank" rel="noopener noreferrer">Beitreten</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="badge"><span></span> Community ist online</div>
+        <h1>Dein neuer Platz<br /><span>auf Discord.</span></h1>
+        <p>
+          Tritt unserer Community bei, chatte mit anderen Mitgliedern,
+          finde neue Leute und verpasse keine Events mehr.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button primary" href="#server">Server ansehen</a>
+          <a class="button secondary" href="https://discord.gg/" target="_blank" rel="noopener noreferrer">Discord öffnen</a>
+        </div>
+
+        <div class="stats">
+          <div><strong>24/7</strong><span>Online</span></div>
+          <div><strong>100%</strong><span>Community</span></div>
+          <div><strong>∞</strong><span>Spaß</span></div>
+        </div>
+      </div>
+
+      <div class="discord-preview">
+        <div class="window-bar">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>discord.com</span>
+        </div>
+        <div class="fake-discord">
+          <aside class="server-list">
+            <span class="server active">D</span>
+            <span class="server">G</span>
+            <span class="server">+</span>
+          </aside>
+          <aside class="channel-list">
+            <h3>COMMUNITY</h3>
+            <p># willkommen</p>
+            <p># allgemein</p>
+            <p># memes</p>
+            <p># gaming</p>
+            <p class="selected"># lobby</p>
+            <h3>SPRACHKANÄLE</h3>
+            <p>🔊 Talk 1</p>
+            <p>🔊 Talk 2</p>
+          </aside>
+          <section class="chat-area">
+            <div class="chat-header"># lobby</div>
+            <div class="messages">
+              <article><span class="avatar purple">S</span><div><b>Starcode</b><small>Heute, 13:56</small><p>Willkommen auf unserem Discord-Server 👋</p></div></article>
+              <article><span class="avatar blue">M</span><div><b>Member</b><small>Heute, 13:57</small><p>Das Design sieht richtig stark aus 🔥</p></div></article>
+              <article><span class="avatar green">B</span><div><b>Bot</b><small>Heute, 13:57</small><p>Neues Mitglied ist dem Server beigetreten!</p></div></article>
+            </div>
+            <div class="message-box">Nachricht an #lobby</div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section" id="features">
+      <div class="section-heading">
+        <span>WARUM UNSER SERVER?</span>
+        <h2>Mehr als nur ein Discord.</h2>
+        <p>Eine moderne Community mit allem, was du brauchst.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Aktive Chats</h3>
+          <p>Schreibe mit anderen Mitgliedern und lerne neue Leute kennen.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🎮</div>
+          <h3>Gaming</h3>
+          <p>Finde Mitspieler, teile Clips und starte gemeinsame Runden.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🎉</div>
+          <h3>Events</h3>
+          <p>Regelmäßige Community-Aktionen, Giveaways und Specials.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Moderation</h3>
+          <p>Ein freundliches Team sorgt für Ordnung und eine gute Atmosphäre.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="server-section" id="server">
+      <div class="server-copy">
+        <span class="eyebrow">LIVE SERVER</span>
+        <h2>Schau direkt rein.</h2>
+        <p>
+          Das Discord-Widget zeigt dir live, wer gerade online ist.
+          Klicke im Widget auf „Connect“, um dem Server beizutreten.
+        </p>
+        <div class="check-list">
+          <p>✓ Live-Mitgliederanzeige</p>
+          <p>✓ Direkter Discord-Beitritt</p>
+          <p>✓ Funktioniert auf PC und Handy</p>
+        </div>
+      </div>
+
+      <div class="widget-card">
+        <div class="widget-glow"></div>
+        <iframe
+          src="https://discord.com/widget?id=1531956961174749225&theme=dark"
+          width="350"
+          height="500"
+          allowtransparency="true"
+          frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          title="Discord Server Widget">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div>
+        <span>BEREIT?</span>
+        <h2>Werde Teil der Community.</h2>
+        <p>Dein Platz auf dem Server wartet schon.</p>
+      </div>
+      <a class="button primary large" href="https://discord.gg/" target="_blank" rel="noopener noreferrer">Jetzt beitreten</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Discord Community. Alle Rechte vorbehalten.</p>
+    <p class="disclaimer">Nicht mit Discord Inc. verbunden.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
